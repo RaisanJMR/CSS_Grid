@@ -1,0 +1,54 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+
+/* CSS variables */
+:root {
+    --primary: #dddddd;
+    --dark: #333333;
+    --light: #ffffff;
+    --shadow: 0 1px 5px rgba(104, 104,104, 0.8);
+}
+html {
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    color: var(--dark);
+}
+body {
+    background: #cccccc;
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+.btn {
+    background: var(--dark);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: none;
+}
+img {
+    min-width: 100%;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+
+
+/* Navigation */
+.main-nav ul {
+display: grid;
+grid-gap: 20px;
+padding: 0;
+list-style: none;
+grid-template-columns: repeat(4, 1fr);
+}
+.main-nav a {
+    background: var(--primary);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+}
